@@ -1,0 +1,4 @@
+Sum: 877.414400
+Difference: -630.334400
+Product: 93133.643376
+Division: 0.163873

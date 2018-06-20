@@ -1,0 +1,28 @@
+case 3:
+                while (c == 't')
+                {
+                    Fahrenheit = ((9.0/5.0) * Temp_C[i]) + 32;
+                    printf("These temperatures in Fahrenheit are:\n %lf\n", Fahrenheit);
+                    break;
+                }
+
+
+ else if (c == 't')
+        {
+            for (i = 0; i + 1 <= n; i++)
+            {
+                Fahrenheit = (1.8 * Temp_C[i]) + 32;
+		Temp = Fahrenheit;
+                printf("The temperatures in Fahrenheit are:\n%lf\n", Temp[i]);
+            }
+        }
+
+
+    else
+        {
+            for (i = 0; i + 1 <= n; i++)
+            {
+                mean = (Temp_C[0] + Temp_C[i]) / n;
+                printf("The mean of the temperatures is: %lf", mean);
+            }
+        }
